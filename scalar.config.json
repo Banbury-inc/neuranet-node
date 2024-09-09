@@ -7,7 +7,7 @@
         {
           "path": "docs/overview.md",
           "type": "page"
-        },
+        }
       ]
     },
     {
@@ -16,7 +16,7 @@
         {
           "path": "docs/quickstart.md",
           "type": "page"
-        },
+        }
       ]
     }
   ],
