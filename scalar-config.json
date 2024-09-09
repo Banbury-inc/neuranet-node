@@ -1,0 +1,40 @@
+{
+  "scalars": {
+    "DateTime": {
+      "description": "A valid ISO-8601 DateTime format.",
+      "type": "string",
+      "format": "date-time",
+      "example": "2023-09-09T12:34:56Z"
+    },
+    "UUID": {
+      "description": "A universally unique identifier (UUID).",
+      "type": "string",
+      "format": "uuid",
+      "example": "123e4567-e89b-12d3-a456-426614174000"
+    },
+    "Email": {
+      "description": "A valid email address format.",
+      "type": "string",
+      "format": "email",
+      "example": "michael.mills@banbury.io"
+    },
+    "URL": {
+      "description": "A valid URL format.",
+      "type": "string",
+      "format": "uri",
+      "example": "https://www.banbury.io"
+    },
+    "JSON": {
+      "description": "A JSON object.",
+      "type": "object",
+      "example": {
+        "key": "value"
+      }
+    },
+    "PhoneNumber": {
+      "description": "A valid phone number format.",
+      "type": "string",
+      "example": "+1-207-712-7052"
+    }
+  }
+}

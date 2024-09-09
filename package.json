@@ -9,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "redocly build-docs openapi.yaml --config=config.yaml",
     "generate-docs": "jsdoc --configure jsdoc.json --verbose",
+    "openapi": "ts-node generateOpenAPI.ts",
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts"
   },

@@ -1,32 +1,92 @@
-openapi: 3.0.0
-info:
-  title: NeuraNet API
-  version: 1.0.0
-  description: A simple API built with TypeScript and Express
-servers:
-  - url: http://localhost:3000
-paths:
-  /greet:
-    get:
-      summary: Returns a greeting message
-      description: This endpoint returns a greeting message for a given name.
-      parameters:
-        - in: query
-          name: name
-          schema:
-            type: string
-          required: true
-          description: The name of the person to greet
-      responses:
-        '200':
-          description: A greeting message
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-                    example: Hello, John!
-components: {}
-tags: []
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Banbury API",
+    "version": "1.0.0",
+    "description": "API for Banbury services"
+  },
+  "servers": [
+    {
+      "url": "https://api.banbury.io/v1",
+      "description": "Production server"
+    },
+    {
+      "url": "https://staging-api.banbury.io/v1",
+      "description": "Staging server"
+    }
+  ],
+  "paths": {
+    "/greet": {
+      "get": {
+        "summary": "Returns a greeting message",
+        "description": "This endpoint returns a greeting message for a given name.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "name",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "The name of the person to greet"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A greeting message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Hello, John!"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/load_credentials": {
+      "get": {
+        "summary": "Returns a greeting message",
+        "description": "This endpoint returns a greeting message for a given name.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "name",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "The name of the person to greet"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A greeting message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Hello, John!"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {},
+  "tags": []
+}

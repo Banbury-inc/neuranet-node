@@ -8,9 +8,6 @@ import * as devices from './devices';
 import * as files from './files';
 
 
-/**
- * The main entry point for the neuranet library.
- */
 export const neuranet = {
   device,
   handlers,
