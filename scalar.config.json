@@ -2,14 +2,23 @@
   "subdomain": "docs-from-banburyio",
   "guides": [
     {
-      "name": "My awesome documentation",
+      "name": "NeuraNet API",
       "sidebar": [
         {
-          "path": "docs/introduction.md",
+          "path": "docs/overview.md",
+          "type": "page"
+        },
+        {
+          "path": "docs/overview.md",
           "type": "page"
         }
       ]
     }
   ],
-  "references": []
+  "references": [
+    {
+      "name": "Endpoints",
+      "url": "openapi.yaml"
+    }
+  ]
 }
