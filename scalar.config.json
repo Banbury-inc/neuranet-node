@@ -1,16 +1,15 @@
 {
-  {
-    "subdomain": "docs",
-    "guides": [
-      {
-        "name": "docs",
-        "sidebar": [
-          {
-            "path": "docs/introduction.md",
-            "type": "page"
-          }
-        ]
-      }
-    ],
-    "references": []
-  }
+  "subdomain": "my-awesome-documentation",
+  "guides": [
+    {
+      "name": "My awesome documentation",
+      "sidebar": [
+        {
+          "path": "docs/introduction.md",
+          "type": "page"
+        }
+      ]
+    }
+  ],
+  "references": []
+}
