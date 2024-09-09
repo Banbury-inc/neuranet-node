@@ -21,6 +21,6 @@ const options = {
 const swaggerSpec = swaggerJSDoc(options);
 
 // Write the OpenAPI spec to a JSON file
-fs.writeFileSync('./openapi-spec.json', JSON.stringify(swaggerSpec, null, 2));
+fs.writeFileSync('./openapi-spec.yaml', JSON.stringify(swaggerSpec, null, 2));
 
 export default swaggerSpec;

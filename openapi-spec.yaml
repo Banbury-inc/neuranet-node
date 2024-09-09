@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "My API",
+    "title": "NeuraNet API",
     "version": "1.0.0",
     "description": "A simple API built with TypeScript and Express"
   },
