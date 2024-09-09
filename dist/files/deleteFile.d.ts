@@ -1,0 +1,1 @@
+export declare function deleteFile(selectedFileNames: string[], global_file_path: string | null, setdeleteLoading: (loading: boolean) => void, setIsAddingFolder: (adding: boolean) => void, setNewFolderName: (name: string) => void, setDisableFetch: (disable: boolean) => void, username: string | null, updates: number, setUpdates: (updates: number) => void): Promise<void>;
