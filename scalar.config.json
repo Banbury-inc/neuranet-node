@@ -2,16 +2,21 @@
   "subdomain": "docs-from-banburyio",
   "guides": [
     {
-      "name": "NeuraNet API",
+      "name": "Overview",
       "sidebar": [
         {
           "path": "docs/overview.md",
           "type": "page"
         },
+      ]
+    },
+    {
+      "name": "Quickstart",
+      "sidebar": [
         {
-          "path": "docs/usage.md",
+          "path": "docs/quickstart.md",
           "type": "page"
-        }
+        },
       ]
     }
   ],
