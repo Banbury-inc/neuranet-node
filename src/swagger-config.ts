@@ -1,10 +1,11 @@
 import swaggerJSDoc from 'swagger-jsdoc';
+import fs from 'fs';
 
 const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'My API',
+      title: 'NeuraNet API',
       version: '1.0.0',
       description: 'A simple API built with TypeScript and Express',
     },
@@ -14,10 +15,12 @@ const options = {
       },
     ],
   },
-  // Path to the API docs
   apis: ['./src/**/*.ts'],
 };
 
 const swaggerSpec = swaggerJSDoc(options);
+
+// Write the OpenAPI spec to a JSON file
+fs.writeFileSync('./openapi-spec.json', JSON.stringify(swaggerSpec, null, 2));
 
 export default swaggerSpec;
