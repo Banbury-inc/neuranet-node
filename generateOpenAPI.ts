@@ -12,7 +12,7 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'https://api.banbury.io/v1',
+      url: 'https://docs.banbury.io/v1',
       description: 'Production server',
     },
     {
