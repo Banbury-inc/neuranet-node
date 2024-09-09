@@ -6,7 +6,7 @@
       "name": "Overview",
       "sidebar": [
         {
-          "path": "docs/overview.md",
+          "path": "./docs/overview.md",
           "type": "page"
         }
       ]
