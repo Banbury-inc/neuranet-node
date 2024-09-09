@@ -11,10 +11,5 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Endpoints",
-      "url": "openapi.yaml"
-    }
-  ]
+  "references": []
 }
