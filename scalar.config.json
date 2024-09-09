@@ -1,5 +1,6 @@
 {
   "subdomain": "docs-from-banburyio",
+  "customDomain": "docs.banbury.io",
   "guides": [
     {
       "name": "Overview",
