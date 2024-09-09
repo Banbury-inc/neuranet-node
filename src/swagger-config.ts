@@ -1,5 +1,10 @@
 import swaggerJSDoc from 'swagger-jsdoc';
 import fs from 'fs';
+import path from 'path';
+import express from 'express';
+import swaggerUi from 'swagger-ui-express';
+
+const app = express();
 
 const options = {
   definition: {

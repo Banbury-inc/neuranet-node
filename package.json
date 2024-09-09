@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "typedoc --out docs --entryPointStrategy expand src",
+    "docs": "redocly build-docs openapi.yaml --config=config.yaml",
+    "generate-docs": "jsdoc --configure jsdoc.json --verbose",
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts"
   },
@@ -22,6 +23,7 @@
     "@types/node": "^22.5.4",
     "@types/swagger-jsdoc": "^6.0.4",
     "@types/swagger-ui-express": "^4.1.6",
+    "clean-jsdoc-theme": "^4.3.0",
     "typedoc": "^0.26.6",
     "typescript": "^4.9.5"
   },

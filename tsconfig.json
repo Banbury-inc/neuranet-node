@@ -4,10 +4,15 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
   },
   "include": [
     "src/**/*"
   ]
+  "entrypoints": [
+    "src/index.ts"
+  ]
+}
 }
