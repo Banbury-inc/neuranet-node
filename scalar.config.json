@@ -9,15 +9,6 @@
           "type": "page"
         }
       ]
-    },
-    {
-      "name": "Quickstart",
-      "sidebar": [
-        {
-          "path": "docs/quickstart.md",
-          "type": "page"
-        }
-      ]
     }
   ],
   "references": [
