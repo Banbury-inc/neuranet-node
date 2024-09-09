@@ -1,6 +1,5 @@
 {
   "subdomain": "docs.banbury.io",
-  "customDomain": "docs.neuranet.io",
   "guides": [
     {
       "name": "My awesome documentation",
