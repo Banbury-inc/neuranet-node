@@ -1,5 +1,6 @@
 {
   "subdomain": "docs",
+  "customDomain": "docs.neuranet.io",
   "guides": [
     {
       "name": "My awesome documentation",
